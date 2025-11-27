@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Cypress outputs / artifacts
+allure-results/
+allure-report/
+cypress/screenshots/
+cypress/videos/
+tmp-login.html

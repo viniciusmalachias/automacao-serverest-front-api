@@ -1,0 +1,81 @@
+{
+  "cucumberautocomplete.steps": [
+    "cypress/e2e/**/*.steps.js",
+    "cypress/support/**/*.js",
+    "e2e/**/*.steps.js",
+    "support/**/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "cypress/e2e/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.strictGherkinValidation": true,
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "{string}",
+      "value": "\"([^\"]*)\""
+    }
+  ],
+  "cucumberautocomplete.onTypeFormat": true,
+  "cucumberautocomplete.formatConfOverride": {
+    "And": [
+      "E"
+    ],
+    "Given": [
+      "Dado",
+      "Dados",
+      "Dada",
+      "Dadas"
+    ],
+    "When": [
+      "Quando",
+      "Quando "
+    ],
+    "Then": [
+      "Então"
+    ]
+  },
+  "cucumberautocomplete.languages": {
+    "pt": {
+      "feature": [
+        "Funcionalidade"
+      ],
+      "background": [
+        "Contexto"
+      ],
+      "scenario": [
+        "Cenário"
+      ],
+      "scenarioOutline": [
+        "Esquema do Cenário"
+      ],
+      "examples": [
+        "Exemplos"
+      ],
+      "given": [
+        "Dado",
+        "Dados",
+        "Dada",
+        "Dadas"
+      ],
+      "when": [
+        "Quando"
+      ],
+      "then": [
+        "Então"
+      ],
+      "and": [
+        "E"
+      ],
+      "but": [
+        "Mas"
+      ]
+    }
+  },
+  "cucumber.languageServer.glue": [
+    "cypress/e2e/**/*.steps.js",
+    "cypress/support/**/*.js"
+  ],
+  "cucumber.languageServer.features": [
+    "cypress/e2e/**/*.feature"
+  ]
+}
+
